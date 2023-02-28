@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+#date-header{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200%;
+    margin-bottom: 5vh;
+    /* background image */
+    background:url('../images/to-do-list-banner\ image-min.jpg') no-repeat center center;
+    background-size: cover;
+    /* text color */
+    color: aliceblue;
+}
+#task-input{
+    display: flex;
+    justify-content: center;
+}
+label, input{
+    padding-right: 2.5vh;
+}
