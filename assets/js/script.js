@@ -12,9 +12,9 @@ const typedTextSpan = document.querySelector(".typed-text");
 const cursor = document.querySelector(".cursor");
 
 const words = ["Gain Control", "Manage Time", "Reduce Stress","Get Productive"];
-const typingDelay = 200;
-const erasingDelay = 200;
-const newLetterDelay = 2000;
+const typingDelay = 150;
+const erasingDelay = 150;
+const newLetterDelay = 1500;
 let index = 0;
 let charIndex = 0;
 
@@ -60,3 +60,22 @@ function leaving (ev){
   ev.currentTarget.style.backgroundColor = 'rgb(250, 249, 246)';
   ev.currentTarget.style.color = '#333'
 }
+
+// Creating the list 
+
+const form = document.querySelector('form'); 
+console.log('form');
+const taskList = document.querySelector('#task-list-ul'); 
+
+form.addEventListener('submit', function (event){
+  event.preventDefault();
+  console.log('Form Submitted');
+  const taskInput = document.getElementById('task');
+  const taskValue = taskInput.value
+
+  const newListItem = document.createElement('li');
+  newListItem.textContent = taskInput.value;
+  taskList.appendChild(newListItem);
+
+  taskInput.value = '';
+})
