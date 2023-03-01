@@ -78,4 +78,12 @@ form.addEventListener('submit', function (event){
   taskList.appendChild(newListItem);
 
   taskInput.value = '';
+
+  newListItem.addEventListener('click', function(){
+    newListItem.style.textDecoration = 'line-through';
+  })
+
+  newListItem.addEventListener('dblclick', function(){
+    taskList.removeChild(newListItem);
+  })
 })
