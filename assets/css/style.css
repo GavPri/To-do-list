@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    background-color: rgb(250, 249, 246);
 }
 #date-header{
     height: 15vh;
@@ -11,16 +12,49 @@
     align-items: center;
     font-size: 200%;
     margin-bottom: 5vh;
-    /* background image */
-    background:url('../images/to-do-list-banner\ image-min.jpg') no-repeat center center;
-    background-size: cover;
-    /* text color */
-    color: aliceblue;
+    color: #333;
 }
+#auto-container{
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+
+
+.typed-text {
+    color: #333;
+    font-family: monospace;
+    font-size: 200%;
+  }
+  
+.cursor {
+    background: #333;
+  }
+
+/* User Input Area  */
 #task-input{
     display: flex;
     justify-content: center;
 }
 label, input{
-    padding-right: 2.5vh;
+    padding-right: 10vh;
+} 
+#task-submit{
+  margin-left: 5vh;
+}
+
+label, input, #task-submit {
+  font-family: monospace;
+  font-weight: 500;
+  font-size: 150%;
+}
+#task-submit{
+  border: 1px solid rgb(160, 158, 151);
+  padding: 2vh;
+  border-radius: 4px;
+  box-shadow: 4px 4px rgb(54, 54, 52);
+  font-weight: bold;
+  cursor: pointer;
 }
