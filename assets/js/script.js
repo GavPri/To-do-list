@@ -87,3 +87,42 @@ form.addEventListener('submit', function (event){
     taskList.removeChild(newListItem);
   })
 })
+
+// modal functionality 
+
+// create required variables. 
+
+let openModalButton = document.getElementById('open-modal');
+let closeModalButton = document.getElementById('close-modal');
+let overlay = document.getElementById('overlay');
+let modal = document.getElementById('modal');
+
+// Add event listeners
+
+openModalButton.addEventListener('click', () => {
+  openModal(modal)
+})
+closeModalButton.addEventListener('click', () => {
+  closeModal(modal)
+})
+
+// Create the functions 
+
+function openModal(modal){
+  modal.classList.add('active')
+  overlay.classList.add('active')
+}
+function closeModal(modal){
+  modal.classList.remove('active')
+  overlay.classList.remove('active')
+}
+
+// Open Modal Button Effects
+
+openModalButton.addEventListener('mouseenter', entering); 
+openModalButton.addEventListener('mouseleave', leaving); 
+
+function entering(ev){
+  ev.currentTarget.style.backgroundColor = '#333';
+  ev.currentTarget.style.color = '#fff'
+}
