@@ -4,6 +4,10 @@
     border: none;
     background-color: rgb(250, 249, 246);
 }
+header{
+  display: flex;
+  justify-content: space-around;
+}
 #date-header{
     height: 15vh;
     width: 100%;
@@ -93,7 +97,7 @@ li{
   box-shadow: 0px 5px #333333b2;
   border: 1px solid #333333b2;
 }
-#open-modal:active{
+#open-modal:active, #change-theme:active{
   box-shadow: none;
   transform: translateY(5px);
 }

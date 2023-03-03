@@ -126,3 +126,19 @@ function entering(ev){
   ev.currentTarget.style.backgroundColor = '#333';
   ev.currentTarget.style.color = '#fff'
 }
+
+
+// Change theme mouse events. 
+document.querySelector('#change-theme').addEventListener('mouseenter', entering);
+document.querySelector('#change-theme').addEventListener('mouseleave', leaving);
+
+function entering(ev){
+  ev.currentTarget.style.backgroundColor = '#333';
+  ev.currentTarget.style.color = 'rgb(250, 249, 246)'
+  ev.currentTarget.style.transition = '1.05s'
+}
+function leaving (ev){
+  ev.currentTarget.style.backgroundColor = 'rgb(250, 249, 246)';
+  ev.currentTarget.style.color = '#333'
+  ev.currentTarget.style.transition = '1.05s'
+}
