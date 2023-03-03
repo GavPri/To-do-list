@@ -142,3 +142,55 @@ function leaving (ev){
   ev.currentTarget.style.color = '#333'
   ev.currentTarget.style.transition = '1.05s'
 }
+
+// Change Theme Functionality 
+
+let themeChange = document.getElementById('change-theme');
+let body = document.querySelector('body');
+let label = document.querySelector('label');
+let input = document.querySelector('input');
+let taskSubmit = document.getElementById('task-submit')
+
+themeChange.addEventListener('click', function (){
+
+  if (body.style.background === "rgb(250, 249, 246)"){
+    // background color changes. 
+    body.style.backgroundColor ='#333';
+    header.style.color = 'rgb(250, 249, 246)'
+    typedTextSpan.style.color = 'rgb(250, 249, 246)';
+    label.style.color = 'rgb(250, 249, 246)';
+    input.style.background = '#333';
+    //  Button changes.
+    openModalButton.style.background = 'rgba(68, 68, 68, 0.761)';
+    openModalButton.style.color = 'rgb(250, 249, 246)'
+    openModalButton.style.boxShadow = '0px 6px #0e0d0dc2';
+    openModalButton.style.border = '1px solid rgb(250, 249, 246)'
+
+    themeChange.style.background = 'rgba(68, 68, 68, 0.761)';
+    themeChange.style.color = 'rgb(250, 249, 246)'
+    themeChange.style.boxShadow = '0px 6px #0e0d0dc2';
+    themeChange.style.border = '1px solid rgb(250, 249, 246)';
+
+    taskSubmit.style.background = 'rgba(68, 68, 68, 0.761)';
+    taskSubmit.style.color = 'rgb(250, 249, 246)'
+    taskSubmit.style.boxShadow = '0px 6px #0e0d0dc2';
+    taskSubmit.style.border = '1px solid rgb(250, 249, 246)'
+    // transition speeds 
+    body.style.transition = '1.25s';
+    header.style.transition = '1.25s'
+    typedTextSpan.style.transition ='1.25s'
+    label.style.transition ='1.25s'
+    input.style.transition = '1.25s';
+    openModalButton.style.transition = '1.25s';
+    taskSubmit.style.transition = '1.25s';
+    themeChange.style.transition ='1.25s';
+
+  } else{
+    // background changes. 
+    body.style.background = 'rgb(250, 249, 246)';
+    header.style.color = '#333';
+    typedTextSpan.style.color = '#333';
+    label.style.color = '#333';
+    input.style.background = 'rgb(250, 249, 246)';
+  }
+})

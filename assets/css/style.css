@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     border: none;
-    background-color: rgb(250, 249, 246);
+}
+body{
+  background-color: rgb(250, 249, 246);
 }
 header{
   display: flex;
@@ -50,6 +52,8 @@ label, input{
 }
 input{
   padding: 2vh;
+  background-color: rgb(250, 249, 246);
+  border-radius: 10px;
 }
 label, input, #task-submit {
   font-family: monospace;
@@ -79,7 +83,7 @@ label, input, #task-submit {
 
 li{
   font-size: 150%;
-  color: #333;
+  color: #0e0d0dc2;
 }
 
 /* Modal Styling */
