@@ -103,6 +103,7 @@ li{
   border-radius: 10px;
   list-style: none;
   font-family: monospace;
+  background-color: rgb(250, 249, 246);
 }
 
 /* Modal Styling */

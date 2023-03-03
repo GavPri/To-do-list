@@ -149,7 +149,7 @@ let themeChange = document.getElementById('change-theme');
 let body = document.querySelector('body');
 let label = document.querySelector('label');
 let input = document.querySelector('input');
-let taskSubmit = document.getElementById('task-submit')
+let taskSubmit = document.getElementById('task-submit');
 
 themeChange.addEventListener('click', function (){
 
@@ -175,7 +175,7 @@ themeChange.addEventListener('click', function (){
     taskSubmit.style.color = 'rgb(250, 249, 246)'
     taskSubmit.style.boxShadow = '0px 6px #0e0d0dc2';
     taskSubmit.style.border = '1px solid rgb(250, 249, 246)'
-    // transition speeds 
+
     body.style.transition = '1.25s';
     header.style.transition = '1.25s'
     typedTextSpan.style.transition ='1.25s'
@@ -186,13 +186,17 @@ themeChange.addEventListener('click', function (){
     themeChange.style.transition ='1.25s';
 
   } else{
+
     // background changes. 
+
     body.style.background = 'rgb(250, 249, 246)';
     header.style.color = '#333';
     typedTextSpan.style.color = '#333';
     label.style.color = '#333';
     input.style.background = 'rgb(250, 249, 246)';
+
     // button chnages 
+
     openModalButton.style.background = 'rgba(250,249,246)';
     openModalButton.style.color = 'rgb(68, 68, 68, 0.761)';
     openModalButton.style.boxShadow = '0px 6px #0e0d0dc2';
