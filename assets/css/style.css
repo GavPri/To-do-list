@@ -4,12 +4,14 @@
     border: none;
 }
 body{
+  margin:2vh;
   background-color: rgb(250, 249, 246);
 }
 header{
   display: flex;
   justify-content: space-around;
-  margin-top: 5vh;
+  padding-bottom: 2.5vh;
+  border-bottom: 2px solid #333;
 }
 #date-header{
     height: 10vh;
@@ -26,8 +28,9 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5vh;
+    margin-bottom: 2.5vh;
     font-size: 200%;
+    border-bottom: 2px solid #333;
 }
 
 
@@ -83,6 +86,7 @@ label, input, #task-submit {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 5vh;
 }
 .list-container{
   width: 50%;
@@ -91,6 +95,7 @@ label, input, #task-submit {
 }
 
 li{
+  font-weight: 600;
   font-size: 125%;
   padding: 1vh;
   margin: 1vh;

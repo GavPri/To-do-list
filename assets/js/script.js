@@ -192,5 +192,15 @@ themeChange.addEventListener('click', function (){
     typedTextSpan.style.color = '#333';
     label.style.color = '#333';
     input.style.background = 'rgb(250, 249, 246)';
+    // button chnages 
+    openModalButton.style.background = 'rgba(250,249,246)';
+    openModalButton.style.color = 'rgb(68, 68, 68, 0.761)';
+    openModalButton.style.boxShadow = '0px 6px #0e0d0dc2';
+    openModalButton.style.border = '1px solid rgb(68, 68, 68, 0.761)'
+
+    taskSubmit.style.background = 'rgba(250,249,246)';
+    taskSubmit.style.color = 'rgb(68, 68, 68, 0.761)'
+    taskSubmit.style.boxShadow = '0px 6px #0e0d0dc2';
+    taskSubmit.style.border = '1px solid rgb(68, 68, 68, 0.761)'
   }
 })
