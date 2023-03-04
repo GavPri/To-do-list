@@ -155,40 +155,46 @@ let body = document.querySelector('body');
 let label = document.querySelector('label');
 let input = document.querySelector('input');
 let taskSubmit = document.getElementById('task-submit');
-
+let headerBorder = document.getElementById('header');
+let borderBottom = document.getElementById('auto-container');
 themeChange.addEventListener('click', function (){
 
   if (body.style.background === "rgb(250, 249, 246)"){
     // background color changes. 
     body.style.backgroundColor ='#333';
-    header.style.color = 'rgb(250, 249, 246)'
+    header.style.color = 'rgb(250, 249, 246)';
     typedTextSpan.style.color = 'rgb(250, 249, 246)';
     label.style.color = 'rgb(250, 249, 246)';
     input.style.background = '#333';
+    // border changes
+    headerBorder.style.borderBottomColor = 'rgba(250,249,246)';
+    borderBottom.style.borderBottomColor = 'rgba(250,249,246)';
     //  Button changes.
     openModalButton.style.background = 'rgba(68, 68, 68, 0.761)';
-    openModalButton.style.color = 'rgb(250, 249, 246)'
+    openModalButton.style.color = 'rgb(250, 249, 246)';
     openModalButton.style.boxShadow = '0px 6px #0e0d0dc2';
-    openModalButton.style.border = '1px solid rgb(250, 249, 246)'
+    openModalButton.style.border = '1px solid rgb(250, 249, 246)';
 
     themeChange.style.background = 'rgba(68, 68, 68, 0.761)';
-    themeChange.style.color = 'rgb(250, 249, 246)'
+    themeChange.style.color = 'rgb(250, 249, 246)';
     themeChange.style.boxShadow = '0px 6px #0e0d0dc2';
     themeChange.style.border = '1px solid rgb(250, 249, 246)';
 
     taskSubmit.style.background = 'rgba(68, 68, 68, 0.761)';
-    taskSubmit.style.color = 'rgb(250, 249, 246)'
+    taskSubmit.style.color = 'rgb(250, 249, 246)';
     taskSubmit.style.boxShadow = '0px 6px #0e0d0dc2';
     taskSubmit.style.border = '1px solid rgb(250, 249, 246)'
-
+    // transition speeds
     body.style.transition = '1.25s';
-    header.style.transition = '1.25s'
-    typedTextSpan.style.transition ='1.25s'
+    header.style.transition = '1.25s';
+    typedTextSpan.style.transition ='1.25s';
     label.style.transition ='1.25s'
     input.style.transition = '1.25s';
     openModalButton.style.transition = '1.25s';
     taskSubmit.style.transition = '1.25s';
     themeChange.style.transition ='1.25s';
+    headerBorder.style.transition ='1.25s';
+    borderBottom.style.transition = '1.25s';
 
   } else{
 
@@ -205,11 +211,15 @@ themeChange.addEventListener('click', function (){
     openModalButton.style.background = 'rgba(250,249,246)';
     openModalButton.style.color = 'rgb(68, 68, 68, 0.761)';
     openModalButton.style.boxShadow = '0px 6px #0e0d0dc2';
-    openModalButton.style.border = '1px solid rgb(68, 68, 68, 0.761)'
+    openModalButton.style.border = '1px solid rgb(68, 68, 68, 0.761)';
 
     taskSubmit.style.background = 'rgba(250,249,246)';
     taskSubmit.style.color = 'rgb(68, 68, 68, 0.761)'
     taskSubmit.style.boxShadow = '0px 6px #0e0d0dc2';
-    taskSubmit.style.border = '1px solid rgb(68, 68, 68, 0.761)'
+    taskSubmit.style.border = '1px solid rgb(68, 68, 68, 0.761)';
+
+    // border lines 
+    headerBorder.style.borderBottomColor = '#333';
+    borderBottom.style.borderBottomColor = '#333';
   }
 })
