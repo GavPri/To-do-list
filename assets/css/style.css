@@ -1,7 +1,7 @@
 *{
-    margin: 0;
-    padding: 0;
-    border: none;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 body{
   margin:2vh;
@@ -14,14 +14,14 @@ header{
   border-bottom: 2px solid #333;
 }
 #date-header{
-    height: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 200%;
-    color: #333;
-    font-family: monospace;
-    text-transform: uppercase;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 200%;
+  color: #333;
+  font-family: monospace;
+  text-transform: uppercase;
 }
 #auto-container{
     height: 40vh;
@@ -32,8 +32,6 @@ header{
     font-size: 200%;
     border-bottom: 2px solid #333;
 }
-
-
 .typed-text {
     color: #333;
     font-family: monospace;
@@ -81,7 +79,6 @@ label, input, #task-submit {
   transform: translateY(4px);
 }
 /* list container */
-
 #list{
   width: 100%;
   height: 50vh;
@@ -93,9 +90,7 @@ label, input, #task-submit {
 .list-container{
   width: 50%;
   height: 90%;
-  
 }
-
 li{
   font-weight: 600;
   font-size: 125%;
@@ -107,9 +102,7 @@ li{
   font-family: monospace;
   background-color: rgb(250, 249, 246);
 }
-
 /* Modal Styling */
-
 #open-modal, #change-theme{
   padding: 2vh;
   margin:2vh;
@@ -184,9 +177,7 @@ li{
   opacity: 1;
   pointer-events: all;
 }
-
 /* inside modal styling */
-
 .modal-steps{
   width:100%;
   height: 10%;
