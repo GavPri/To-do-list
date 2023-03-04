@@ -218,6 +218,11 @@ themeChange.addEventListener('click', function (){
     taskSubmit.style.boxShadow = '0px 6px #0e0d0dc2';
     taskSubmit.style.border = '1px solid rgb(68, 68, 68, 0.761)';
 
+    themeChange.style.background = 'rgba(250,249,246)';
+    themeChange.style.color = 'rgb(68, 68, 68, 0.761)'
+    themeChange.style.boxShadow = '0px 6px #0e0d0dc2';
+    themeChange.style.border = '1px solid rgb(68, 68, 68, 0.761)';
+
     // border lines 
     headerBorder.style.borderBottomColor = '#333';
     borderBottom.style.borderBottomColor = '#333';
