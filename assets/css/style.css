@@ -162,6 +162,7 @@ li{
 }
 #modal-body{
   padding:2vh;
+  height: 100%;
 }
 .instructions{
   font-size: 125%;
