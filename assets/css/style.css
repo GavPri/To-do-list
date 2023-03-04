@@ -120,6 +120,8 @@ li{
   border-radius:10px;
   box-shadow: 0px 5px #333333b2;
   border: 1px solid #333333b2;
+  text-transform: uppercase;
+  letter-spacing: 0.25vw;
 }
 #open-modal:active, #change-theme:active{
   box-shadow: none;
