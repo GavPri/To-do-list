@@ -136,7 +136,7 @@ li{
   transform: translate(-50%, -50%) scale(0);
   z-index:99;
   transition:200ms ease-in-out;
-  height: 75vh; 
+  height: 50vh; 
   width:60vw;
   border: 1px solid #333333b2;
   background-color: white;

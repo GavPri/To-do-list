@@ -157,6 +157,7 @@ let input = document.querySelector('input');
 let taskSubmit = document.getElementById('task-submit');
 let headerBorder = document.getElementById('header');
 let borderBottom = document.getElementById('auto-container');
+
 themeChange.addEventListener('click', function (){
 
   if (body.style.background === "rgb(250, 249, 246)"){
