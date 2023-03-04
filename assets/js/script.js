@@ -60,7 +60,6 @@ function leaving (ev){
   ev.currentTarget.style.backgroundColor = 'rgb(250, 249, 246)';
   ev.currentTarget.style.color = '#333'
 }
-
 // Creating the list 
 
 const form = document.querySelector('form'); 
@@ -89,25 +88,19 @@ form.addEventListener('submit', function (event){
 })
 
 // modal functionality 
-
 // create required variables. 
-
 let openModalButton = document.getElementById('open-modal');
 let closeModalButton = document.getElementById('close-modal');
 let overlay = document.getElementById('overlay');
 let modal = document.getElementById('modal');
-
 // Add event listeners
-
 openModalButton.addEventListener('click', () => {
   openModal(modal)
 })
 closeModalButton.addEventListener('click', () => {
   closeModal(modal)
 })
-
 // Create the functions 
-
 function openModal(modal){
   modal.classList.add('active')
   overlay.classList.add('active')
@@ -118,7 +111,6 @@ function closeModal(modal){
 }
 
 // Open Modal Button Effects
-
 openModalButton.addEventListener('mouseenter', entering); 
 openModalButton.addEventListener('mouseleave', leaving); 
 
@@ -127,8 +119,7 @@ function entering(ev){
   ev.currentTarget.style.color = '#fff'
 }
 
-
-// Change theme mouse events. 
+// Change theme mouse events function. 
 document.querySelector('#change-theme').addEventListener('mouseenter', entering);
 document.querySelector('#change-theme').addEventListener('mouseleave', leaving);
 
@@ -149,7 +140,6 @@ function leaving(ev){
 }
 
 // Change Theme Functionality 
-
 let themeChange = document.getElementById('change-theme');
 let body = document.querySelector('body');
 let label = document.querySelector('label');
@@ -157,9 +147,9 @@ let input = document.querySelector('input');
 let taskSubmit = document.getElementById('task-submit');
 let headerBorder = document.getElementById('header');
 let borderBottom = document.getElementById('auto-container');
-
+// Event Listener
 themeChange.addEventListener('click', function (){
-
+// If Statement. 
   if (body.style.background === "rgb(250, 249, 246)"){
     // background color changes. 
     body.style.backgroundColor ='#333';
@@ -175,12 +165,10 @@ themeChange.addEventListener('click', function (){
     openModalButton.style.color = 'rgb(250, 249, 246)';
     openModalButton.style.boxShadow = '0px 6px #0e0d0dc2';
     openModalButton.style.border = '1px solid rgb(250, 249, 246)';
-
     themeChange.style.background = 'rgba(68, 68, 68, 0.761)';
     themeChange.style.color = 'rgb(250, 249, 246)';
     themeChange.style.boxShadow = '0px 6px #0e0d0dc2';
     themeChange.style.border = '1px solid rgb(250, 249, 246)';
-
     taskSubmit.style.background = 'rgba(68, 68, 68, 0.761)';
     taskSubmit.style.color = 'rgb(250, 249, 246)';
     taskSubmit.style.boxShadow = '0px 6px #0e0d0dc2';
@@ -196,34 +184,26 @@ themeChange.addEventListener('click', function (){
     themeChange.style.transition ='1.25s';
     headerBorder.style.transition ='1.25s';
     borderBottom.style.transition = '1.25s';
-
   } else{
-
     // background changes. 
-
     body.style.background = 'rgb(250, 249, 246)';
     header.style.color = '#333';
     typedTextSpan.style.color = '#333';
     label.style.color = '#333';
     input.style.background = 'rgb(250, 249, 246)';
-
     // button chnages 
-
     openModalButton.style.background = 'rgba(250,249,246)';
     openModalButton.style.color = 'rgb(68, 68, 68, 0.761)';
     openModalButton.style.boxShadow = '0px 6px #0e0d0dc2';
     openModalButton.style.border = '1px solid rgb(68, 68, 68, 0.761)';
-
     taskSubmit.style.background = 'rgba(250,249,246)';
     taskSubmit.style.color = 'rgb(68, 68, 68, 0.761)'
     taskSubmit.style.boxShadow = '0px 6px #0e0d0dc2';
     taskSubmit.style.border = '1px solid rgb(68, 68, 68, 0.761)';
-
     themeChange.style.background = 'rgba(250,249,246)';
     themeChange.style.color = 'rgb(68, 68, 68, 0.761)'
     themeChange.style.boxShadow = '0px 6px #0e0d0dc2';
     themeChange.style.border = '1px solid rgb(68, 68, 68, 0.761)';
-
     // border lines 
     headerBorder.style.borderBottomColor = '#333';
     borderBottom.style.borderBottomColor = '#333';
