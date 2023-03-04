@@ -9,6 +9,7 @@
 </head>
 <body>
     <header id="header">
+        <!-- Modal -->
         <button id="open-modal">How To Use The List</button>
         <div id="modal" class="modal">
             <div id="modal-header">
@@ -38,16 +39,21 @@
                     </div>
                 </div>
         </div>
+        <!-- Modal overlay/background -->
         <div id="overlay"></div>
+        <!-- Div to place date display -->
         <div id="date-header"></div>
-        <button id="change-theme">Change Theme</button>
-    </header>   
+        <!-- change theme button -->
+        <button id="change-theme">Change Theme</button> 
+    </header> 
+      <!-- Auto Typing display area -->
     <section id="list-benefits">
         <div id="auto-container">
             <span class="typed-text"></span>
             <span class="cursor">&nbsp;</span>
         </div>
     </section>
+    <!-- Area for user to input tasks -->
     <section id="task-input">
         <form method="get" id="'form">
             <label for="task">What do you have to do today?</label>
@@ -55,12 +61,13 @@
             <button id="task-submit">Create task.</button>
         </form>
     </section>
+    <!-- The list section where inputs will be displayed -->
     <section id="list">
         <div class="list-container">
             <ul id="task-list-ul"> </ul>      
         </div>
     </section>
-    
+    <!-- Link to js file -->
     <script src="assets/js/script.js"></script>  
 </body>
 </html>
