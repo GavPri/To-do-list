@@ -144,7 +144,7 @@ function leaving(ev){
 let themeChange = document.getElementById('change-theme');
 let body = document.querySelector('body');
 let label = document.querySelector('label');
-let input = document.querySelector('input');
+let input = document.getElementById('task');
 let taskSubmit = document.getElementById('task-submit');
 let headerBorder = document.getElementById('header');
 let borderBottom = document.getElementById('auto-container');
@@ -157,7 +157,8 @@ themeChange.addEventListener('click', function (){
     header.style.color = 'rgb(250, 249, 246)';
     typedTextSpan.style.color = 'rgb(250, 249, 246)';
     label.style.color = 'rgb(250, 249, 246)';
-    input.style.background = '#333';
+    input.style.background = 'rgb(250, 249, 246)';
+    input.style.color = '#333'
     // border changes
     headerBorder.style.borderBottomColor = 'rgba(250,249,246)';
     borderBottom.style.borderBottomColor = 'rgba(250,249,246)';
@@ -192,6 +193,7 @@ themeChange.addEventListener('click', function (){
     typedTextSpan.style.color = '#333';
     label.style.color = '#333';
     input.style.background = 'rgb(250, 249, 246)';
+    input.style.color = '#333' 
     // button chnages 
     openModalButton.style.background = 'rgba(250,249,246)';
     openModalButton.style.color = 'rgb(68, 68, 68, 0.761)';
