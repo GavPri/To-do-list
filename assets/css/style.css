@@ -217,3 +217,9 @@ li{
     border-bottom: 2px solid #333;
 }
 }
+@media screen and (max-width: 500px){
+  /* Generate Text */
+  .typed-text{
+    font-size: 125%;
+  }
+}
