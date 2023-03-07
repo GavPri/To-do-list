@@ -48,7 +48,6 @@ function erase() {
   }
 }
 // Task Submit Button 
-
 document.querySelector('#task-submit').addEventListener('mouseenter', entering);
 document.querySelector('#task-submit').addEventListener('mouseleave', leaving);
 
@@ -61,8 +60,8 @@ function leaving (ev){
   ev.currentTarget.style.backgroundColor = 'rgb(250, 249, 246)';
   ev.currentTarget.style.color = '#333'
 }
-// Creating the list 
 
+// Creating the list 
 const form = document.querySelector('form'); 
 console.log('form');
 const taskList = document.querySelector('#task-list-ul'); 
