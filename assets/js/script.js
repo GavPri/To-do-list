@@ -56,6 +56,7 @@ function entering(ev){
   ev.currentTarget.style.backgroundColor = '#333';
   ev.currentTarget.style.color = 'rgb(250, 249, 246)'
 }
+
 function leaving (ev){
   ev.currentTarget.style.backgroundColor = 'rgb(250, 249, 246)';
   ev.currentTarget.style.color = '#333'
@@ -128,6 +129,7 @@ function entering(ev){
   ev.currentTarget.style.color = 'rgb(250, 249, 246)'
   ev.currentTarget.style.transition = '1.05s'
 }
+
 function leaving(ev){
   if (body.style.background === "rgb(250, 249, 246)"){
     ev.currentTarget.style.backgroundColor = 'rgb(250, 249, 246)';
