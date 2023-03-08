@@ -16,3 +16,7 @@ This site is made to help users keep track of their daily tasks, and mark them a
     - Changing the theme on this site is to help improve the user experience.
     - Some users with visual impairments may find one theme easier to read than the other or one may cause less eye strain than the other. Offering a light and dark theme makes this site more accessible to more users.
     - Having the option to change the theme lets people personalize the site. They can choose which site view they prefer, improving their user experience.
+### Auto-Generated Text.
+![auto-generated-text-screenshot](assets/images/tdl-text-generator.png)
+- Using a to-do list can be a powerful tool for managing your time and staying organized, and we want to encourage our users to give it a try. That’s why we display messages like “get organized” and reduce stress.
+- This section is here to encourage the user to use the list to get these benefits.
