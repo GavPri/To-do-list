@@ -5,8 +5,6 @@ This site is made to help users keep track of their daily tasks, and mark them a
 
 ### Site Header 
 ![Site-Header](assets/images/tdl-header.png)
-### Header Bar.
-
 - Modal pop-up.
     - This feature is placed in the top-left of the screen. When clicked, it gives the instructions to use.
     - Within this modal, the three steps of inputting a task, marking as complete, and removing it from the list.
