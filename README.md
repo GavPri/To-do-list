@@ -27,6 +27,10 @@ This site is made to help users keep track of their daily tasks, and mark them a
 ### List Area.
 ![user-input-area](assets/images/tdl-list-area.png)
 - When a user enters a task, it is added to a list below the input area. Here the user can view their task list, and click it once to mark it as complete with a line through the text. To delete the task, a double click on the list item will remove the task from the list.
-### Features Left To Implement.
-
+## Features Left To Implement.
 - A progess bar above the list that increase in size realtive to the number of task they have completed and the total number of task they want to complete. 
+## Validator Testing
+### HTML
+- No errors were returned when passing through the official W3C validator
+### CSS
+- No errors were found when passing through the official (Jigsaw) validator

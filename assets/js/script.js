@@ -174,12 +174,12 @@ themeChange.addEventListener('click', function (){
     taskSubmit.style.background = 'rgba(68, 68, 68, 0.761)';
     taskSubmit.style.color = 'rgb(250, 249, 246)';
     taskSubmit.style.boxShadow = '0px 6px #0e0d0dc2';
-    taskSubmit.style.border = '1px solid rgb(250, 249, 246)'
+    taskSubmit.style.border = '1px solid rgb(250, 249, 246)';
     // transition speeds
     body.style.transition = '1.25s';
     header.style.transition = '1.25s';
     typedTextSpan.style.transition ='1.25s';
-    label.style.transition ='1.25s'
+    label.style.transition ='1.25s';
     input.style.transition = '1.25s';
     openModalButton.style.transition = '1.25s';
     taskSubmit.style.transition = '1.25s';
@@ -193,18 +193,18 @@ themeChange.addEventListener('click', function (){
     typedTextSpan.style.color = '#333';
     label.style.color = '#333';
     input.style.background = 'rgb(250, 249, 246)';
-    input.style.color = '#333' 
+    input.style.color = '#333';
     // button chnages 
     openModalButton.style.background = 'rgba(250,249,246)';
     openModalButton.style.color = 'rgb(68, 68, 68, 0.761)';
     openModalButton.style.boxShadow = '0px 6px #0e0d0dc2';
     openModalButton.style.border = '1px solid rgb(68, 68, 68, 0.761)';
     taskSubmit.style.background = 'rgba(250,249,246)';
-    taskSubmit.style.color = 'rgb(68, 68, 68, 0.761)'
+    taskSubmit.style.color = 'rgb(68, 68, 68, 0.761)';
     taskSubmit.style.boxShadow = '0px 6px #0e0d0dc2';
     taskSubmit.style.border = '1px solid rgb(68, 68, 68, 0.761)';
     themeChange.style.background = 'rgba(250,249,246)';
-    themeChange.style.color = 'rgb(68, 68, 68, 0.761)'
+    themeChange.style.color = 'rgb(68, 68, 68, 0.761)';
     themeChange.style.boxShadow = '0px 6px #0e0d0dc2';
     themeChange.style.border = '1px solid rgb(68, 68, 68, 0.761)';
     // border lines 
