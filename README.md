@@ -36,3 +36,7 @@ This site is made to help users keep track of their daily tasks, and mark them a
 - No errors were found when passing through the official validator : Jigsaw
 ### JavaScript
 - No errors were found when passing through the official validator : JShint 
+## Unfixed Bugs
+- The theme change button does not work on the first click, it will only change the theme on the second click. 
+    - I was unable to fix this bug, I think it may be due to the mouseenter/mouseleave events in the js file effecting the event listener of the first click. However, this could be in correct. I hope to fix this in the future. 
+- The double click function to remove tasks from the list does not work when the page is being inspected usng chrome dev tools. I am unsure of why this is ocurring. 
