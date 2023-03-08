@@ -20,3 +20,7 @@ This site is made to help users keep track of their daily tasks, and mark them a
 ![auto-generated-text-screenshot](assets/images/tdl-text-generator.png)
 - Using a to-do list can be a powerful tool for managing your time and staying organized, and we want to encourage our users to give it a try. That’s why we display messages like “get organized” and reduce stress.
 - This section is here to encourage the user to use the list to get these benefits.
+### Input Area.
+![user-input-area](assets/images/tdl-list-area.png)
+- I’ve included an input area on our website that allows you to add tasks to your to-do list quickly and easily.
+- It starts with a prompt “What do you have to do today?” followed by an input area for the user to type in their tasks. When they press the enter key or tap on the “create task” it is then added to the list for the user to see.
