@@ -24,3 +24,6 @@ This site is made to help users keep track of their daily tasks, and mark them a
 ![user-input-area](assets/images/tdl-list-area.png)
 - I’ve included an input area on our website that allows you to add tasks to your to-do list quickly and easily.
 - It starts with a prompt “What do you have to do today?” followed by an input area for the user to type in their tasks. When they press the enter key or tap on the “create task” it is then added to the list for the user to see.
+### List Area.
+![user-input-area](assets/images/tdl-list-area.png)
+- When a user enters a task, it is added to a list below the input area. Here the user can view their task list, and click it once to mark it as complete with a line through the text. To delete the task, a double click on the list item will remove the task from the list.
