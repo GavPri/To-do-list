@@ -1,0 +1,2 @@
+# To Do List 
+This site is made to help users keep track of their daily tasks, and mark them as complete when they have completed them. I made this using a slightly off-white theme (with an option to change to a darker theme if the user wishes to) and a minimalist design to keep the users focused on inputting and completing their daily goals. 
