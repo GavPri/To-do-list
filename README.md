@@ -33,4 +33,6 @@ This site is made to help users keep track of their daily tasks, and mark them a
 ### HTML
 - No errors were returned when passing through the official W3C validator
 ### CSS
-- No errors were found when passing through the official (Jigsaw) validator
+- No errors were found when passing through the official validator : Jigsaw
+### JavaScript
+- No errors were found when passing through the official validator : JShint 
