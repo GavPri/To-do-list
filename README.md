@@ -42,3 +42,14 @@ This site is made to help users keep track of their daily tasks, and mark them a
 - The double click function to remove tasks from the list does not work when the page is being inspected usng chrome dev tools. I am unsure of why this is ocurring. 
 ## Deployment
 The site was deployed to GitHub pages.
+## Credits.
+### Modal.
+- The code which helped me to create the modal pop up was found in this youtube video (https://www.youtube.com/watch?v=MBaw_6cPmAw)
+### Change Theme.
+- The code which helped me to create the change theme button was found in this youtube video (https://www.youtube.com/watch?v=CUEJkJ9HDbY&t=340s)
+### Mouseenter/MouseLeave.
+- The code which helped me to create the mouse effects were found in this youtube video (https://www.youtube.com/watch?v=pzT4hAY82q4)
+### Auto Generated Text.
+- The code which created the auto text generator was found through this youtube video (https://www.youtube.com/watch?v=s2wvoJeid-A&t=30s)
+### List section. 
+- The code which helped me create the list section was found here (https://www.youtube.com/watch?v=-pRg_daFjfk&t=548s)
